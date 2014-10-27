@@ -1,0 +1,212 @@
+/* ::::: Hello World!::::: */
+
+* { margin: 0px; padding: 0px; }
+body { background-color: rgb(244, 137, 7); color: rgb(255, 255, 255); font: 14px "Open Sans", sans-serif;font-weight: 300; }
+.hidden { display: none; }
+.noselect { -moz-user-select: none; }
+#floaty-thing {
+	height: 690px;
+	margin: 50px auto 0px;
+	position: absolute;
+	width: 600px;
+}
+#floaty-thing .resumehelper { background: url('helper.png') no-repeat scroll 0% 0% transparent; height: 103px; left: 375px; position: absolute; top: 75px; width: 327px; z-index: 5; }
+#wp7 { height: 690px; width: 455px; left:150px;}
+#frame { height: 690px; position: relative; width: 455px;}
+#frame .top { background: url('frame-top.png') no-repeat scroll 0% 0% transparent; cursor: move; height: 52px; top: 6px; left: 60px; position: absolute; width: 453px; z-index: 5; }
+#frame .left {
+	background: url('frame-left.png') no-repeat scroll 0% 0% transparent; cursor: move;
+	height: 867px;
+	left: 60px;
+	position: absolute;
+	top: 52px;
+	width: 32px;
+	z-index: 5;
+}
+#frame .right {
+	background: url('frame-right.png') no-repeat scroll 0% 0% transparent; cursor: move;
+	height: 867px;
+	left: 364px;
+	position: absolute;
+	top: 52px;
+	width: 32px;
+	z-index: 5;
+}
+#frame .bottom {
+	background: url('frame-bottom.png') no-repeat scroll 0% 0% transparent; cursor: move;
+	bottom: -78px;
+	height: 201px;
+	position: absolute;
+	width: 453px;
+	z-index: 5;
+	left: 60px;
+}
+#frame .back {  no-repeat scroll 0% 0% transparent; bottom: 77px; cursor: pointer; height: 39px; left: 80px; position: absolute; width: 96px; z-index: 5; }
+#frame .home {  no-repeat scroll 0% 0% transparent; bottom: 77px; cursor: pointer; height: 39px; left: 183px; position: absolute; width: 90px; z-index: 5; }
+#frame .search {  no-repeat scroll 0% 0% transparent; bottom: 77px; cursor: pointer; height: 39px; left: 280px; position: absolute; width: 95px; z-index: 5; }
+#title { background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.1); position: absolute; left: 575px; top: 155px;  width:375px; cursor: move;}
+#title .name { font-size: 50px; margin: 20px 10px 0px 25px;}
+#title .name span { font-weight: bold; color: black;  }
+#title .steps { font-size: 25px; margin: 0px 30px 40px; color: black; }
+#content { background: none repeat scroll 0% 0% rgb(0, 0, 0); height: 515px; left: 86px; overflow-y: hidden; position: absolute; top: 52px; }
+#viewport { height: 515px; position: relative; width: 278px; }
+#content .window-size { float: left; height: 515px; position: absolute; width: 278px; z-index: 2; }
+#content .time { font-size: 13px; position: absolute; right: 5px; top: 2px; }
+#content .lock-screen { background: url('lock-screen.jpg') no-repeat scroll 0% 0% transparent; cursor: n-resize; z-index: 4; }
+#content .lock-screen .text { bottom: 136px; font-size: 30px; left: 15px; position: absolute; }
+#content .home-screen { background: none repeat scroll 0% 0% rgb(0, 0, 0); float: left; height: 515px; overflow: hidden; position: absolute; width: 265px; z-index: 3; }
+#content .home-screen .arrow { background: url('frame.png') no-repeat scroll 0px 0px transparent; cursor: pointer; height: 515px; left: 0px; position: absolute; top: 0px; width: 278px; }
+#content .home-screen .boxes { left: 2px; list-style: none outside none; position: relative; top: 30px; width: 278px; }
+#content .home-screen .box { background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 0px 0px 5px 5px; height: 40px; width: 40px; }
+#content .home-screen .phone { background-image: url('live-tiles.png'); background-position: 0px 0px; }
+#content .home-screen .email { background-image: url('live-tiles.png'); background-position: -97px 0px; }
+#content .home-screen .social { background-image: url('live-tiles.png'); background-position: -194px 0px; }
+#content .home-screen .resume { background-image: url('live-tiles.png'); background-position: -291px 0px; }
+
+
+#content .home-screen .a { background-image: url('live-tiles.png'); background-position: -29px 0px; }
+#content .home-screen .b { background-image: url('live-tiles.png'); background-position: -291px 0px; }
+#content .home-screen .c { background-image: url('live-tiles.png'); background-position: -291px 0px; }
+
+
+
+#content .home-screen .buzz { background-image: url('live-tiles.png'); background-position: -388px 0px; }
+#content .home-screen .lists { left: 278px; list-style: none outside none; position: relative; top: 45px; width: 205px; }
+#content .home-screen .list { cursor: pointer; height: 35px; margin-bottom: 15px; position: relative; }
+#content .home-screen .list span { font-size: 20px; left: 45px; position: absolute; top: 5px; }
+#content .home-screen li.list div { background-color: rgb(27, 161, 226); height: 35px; width: 35px; }
+#content .home-screen .map div { background-image: url('app-list.png'); background-position: 0px 0px; }
+#content .home-screen .gallery div { background-image: url('app-list.png'); background-position: -35px 0px; }
+#content .home-screen .settings div { background-image: url('app-list.png'); background-position: -70px 0px; }
+#content #search { background-color: rgb(255, 255, 255); width:50%; height:50%;}
+#content #phone { background-color: rgb(0, 0, 0); }
+#content #phone .tip { left: 5px; position: absolute; top: 25px; }
+#content #phone .number { font-size: 25px; left: 5px; position: absolute; top: 42px; }
+#content #phone .backspace { background-image: url('backspace.png'); cursor: pointer; height: 15px; left: 225px; position: absolute; top: 51px; width: 22px; }
+#content #phone .info { font-size: 12px; left: 5px; position: absolute; top: 90px; }
+#content #phone .dial-pad { background-color: rgb(58, 58, 58); bottom: 0px; height: 285px; left: 0px; position: absolute; width: 262px; }
+#content #phone .keys { left: 2px; position: absolute; top: 2px; }
+#content #phone .key { background-color: rgb(116, 116, 116); cursor: pointer; display: block; float: left; height: 58px; margin: 2px; position: relative; width: 83px; }
+#content #phone .key span { font-size: 30px; left: 32px; position: absolute; top: 10px; }
+#content #phone .key:hover { background-color: rgb(222, 222, 222); }
+#content #phone .key:hover span { color: rgb(0, 0, 0); }
+#content #phone .call { border: 2px solid rgb(255, 255, 255); bottom: 5px; cursor: pointer; font-size: 16px; left: 70px; padding: 2px 50px; position: absolute; }
+#content #phone .call:hover { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+#content #phone .incoming { background-color: rgb(58, 58, 58); height: 157px; left: 0px; position: absolute; top: -157px; width: 262px; }
+#content #phone .incomingalert { left: 15px; position: absolute; top: 45px; }
+#content #phone .incomingalert span { font-size: 25px; }
+#content #social { background-color: rgb(0, 0, 0); }
+#content #social .text { font-size: 15px; left: 15px; position: absolute; top: 30px; }
+#content #social .tab { font-size: 40px; left: 15px; position: absolute; top: 45px; }
+#content #social .networks { left: 15px; position: absolute; top: 110px; width: 240px; }
+#content #social .networks span { display: none; }
+#content #social .networks a { display: block; float: left; height: 55px; margin: 0px 5px 5px 0px; width: 55px; }
+#content #social .networks .facebook { background: url('social-icons.png') no-repeat scroll 0px 0px transparent; }
+#content #social .networks .flickr { background: url('social-icons.png') no-repeat scroll -55px 0px transparent; }
+#content #social .networks .foursquare { background: url('social-icons.png') no-repeat scroll -110px 0px transparent; }
+#content #social .networks .googletalk { background: url('social-icons.png') no-repeat scroll -165px 0px transparent; }
+#content #social .networks .linkedin { background: url('social-icons.png') no-repeat scroll -220px 0px transparent; }
+#content #social .networks .pandora { background: url('social-icons.png') no-repeat scroll -275px 0px transparent; }
+#content #social .networks .reddit { background: url('social-icons.png') no-repeat scroll -330px 0px transparent; }
+#content #social .networks .skattertech { background: url('social-icons.png') no-repeat scroll -385px 0px transparent; }
+#content #social .networks .skype { background: url('social-icons.png') no-repeat scroll -440px 0px transparent; }
+#content #social .networks .stumbleupon { background: url('social-icons.png') no-repeat scroll -495px 0px transparent; }
+#content #social .networks .tumblr { background: url('social-icons.png') no-repeat scroll -550px 0px transparent; }
+#content #social .networks .twitter { background: url('social-icons.png') no-repeat scroll -605px 0px transparent; }
+#content #social .networks .vimeo { background: url('social-icons.png') no-repeat scroll -660px 0px transparent; }
+#content #social .networks .youtube { background: url('social-icons.png') no-repeat scroll -715px 0px transparent; }
+#content #buzz { background-color: rgb(0, 0, 0); }
+#content #buzz .text { font-size: 15px; left: 15px; position: absolute; top: 30px; }
+#content #buzz .tab { font-size: 40px; left: 15px; position: absolute; top: 45px; }
+#content #buzz .mentions { left: 15px; position: absolute; top: 105px; width: 240px; }
+#content #buzz .mentions a { color: rgb(255, 255, 255); font-size: 19px; text-decoration: none; }
+#content #buzz .mentions a:hover { font-weight: bold; }
+#content #resume { background: url('wave.jpg') no-repeat scroll 0% 0% rgb(0, 0, 0); overflow: hidden; }
+#content #resume .title { font-size: 100px; left: 15px; absolute; top: -30px; }
+#content #resume .tabs { cursor: pointer; font-size: 30px; left: 15px; position: absolute; top: 80px; width: 610px; }
+#content #resume .tab { color: rgb(255, 255, 255); float: left; font-size: 30px; margin-right: 20px; }
+#content #resume .tabs .selected { color: rgb(64, 64, 64); }
+#content #resume .pages { left: 0px; position: absolute; top: 145px; }
+#content #resume .pages .experience { left: 15px; position: absolute; }
+#content #resume .pages .education { left: 280px; position: absolute; }
+#content #resume .pages .events { left: 545px; position: absolute; }
+#content #resume .pages .skills { left: 810px; position: absolute; }
+#content #resume .pages .code { left: 1075px; position: absolute; }
+#content #resume .work { color: rgb(48, 48, 48); list-style: none outside none; }
+#content #resume .work li { height: 55px; margin-bottom: 20px; position: relative; width: 240px; }
+#content #resume .work li a { height: 55px; width: 55px; }
+#content #resume .work .smartcar a { background: url('work.png') no-repeat scroll 0px 0px transparent; display: block; }
+#content #resume .work .skattertech a { background: url('work.png') no-repeat scroll -55px 0px transparent; display: block; }
+#content #resume .work .sixapart a { background: url('work.png') no-repeat scroll -110px 0px transparent; display: block; }
+#content #resume .work .tivo a { background: url('work.png') no-repeat scroll -165px 0px transparent; display: block; }
+#content #resume .work .company { font-size: 20px; font-weight: bold; left: 65px; position: absolute; top: -5px; }
+#content #resume .work .position { color: rgb(64, 64, 64); font-size: 15px; font-weight: bold; left: 65px; position: absolute; top: 20px; }
+#content #resume .work .dates { left: 65px; position: absolute; top: 40px; }
+#content #resume .school { color: rgb(48, 48, 48); list-style: none outside none; }
+#content #resume .school li { height: 55px; margin-bottom: 25px; position: relative; width: 240px; }
+#content #resume .school li a { height: 55px; width: 55px; }
+#content #resume .school .ucd a { background: url('school.png') no-repeat scroll 0px 0px transparent; display: block; }
+#content #resume .school .shs a { background: url('school.png') no-repeat scroll -55px 0px transparent; display: block; }
+#content #resume .school .campus { font-size: 20px; font-weight: bold; left: 65px; position: absolute; top: -5px; }
+#content #resume .school .major { color: rgb(64, 64, 64); font-size: 15px; font-weight: bold; left: 65px; position: absolute; top: 20px; }
+#content #resume .school .dates { left: 65px; position: absolute; top: 40px; }
+#content #resume .conferences { color: rgb(48, 48, 48); list-style: none outside none; }
+#content #resume .conferences li { height: 35px; margin-bottom: 20px; position: relative; width: 240px; }
+#content #resume .conferences li a { height: 35px; width: 35px; }
+#content #resume .conferences .ces a { background: url('conferences.png') no-repeat scroll 0px 0px transparent; display: block; }
+#content #resume .conferences .ctia a { background: url('conferences.png') no-repeat scroll -35px 0px transparent; display: block; }
+#content #resume .conferences .e3 a { background: url('conferences.png') no-repeat scroll -70px 0px transparent; display: block; }
+#content #resume .conferences .mwe a { background: url('conferences.png') no-repeat scroll -105px 0px transparent; display: block; }
+#content #resume .conferences .cc a { background: url('conferences.png') no-repeat scroll -140px 0px transparent; display: block; }
+#content #resume .conferences .event { font-size: 20px; font-weight: bold; left: 45px; position: absolute; top: -5px; }
+#content #resume .conferences .dates { left: 45px; position: absolute; top: 20px; }
+#content #resume .talents, #content #resume .languages { color: rgb(48, 48, 48); list-style: none outside none; }
+#content #resume .talents li, #content #resume .languages li { font-size: 22px; font-weight: bold; margin-bottom: 10px; width: 225px; }
+#content #settings { background-color: rgb(0, 0, 0); }
+#content #settings .text { font-size: 15px; left: 15px; position: absolute; top: 30px; }
+#content #settings .option { font-size: 40px; left: 15px; position: absolute; top: 45px; }
+#content #settings .colors { left: 15px; list-style: none outside none; position: relative; top: 110px; width: 205px; }
+#content #settings .color { font-size: 20px; cursor: pointer; height: 35px; margin-bottom: 15px; position: relative; }
+#content #settings .color span { left: 45px; position: absolute; top: 5px; }
+#content #settings li.color div { height: 35px; width: 35px; }
+#content #settings .colors .blue div { background-color: rgb(27, 161, 226); }
+#content #settings .colors .green div { background-color: rgb(51, 153, 51); }
+#content #settings .colors .orange div { background-color: rgb(240, 150, 9); }
+#content #settings .colors .purple div { background-color: rgb(162, 0, 255); }
+#content #settings .colors .red div { background-color: rgb(229, 20, 0); }
+#sharebutton { background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.2); cursor: pointer; font-size: 15px; padding: 10px; position: absolute; right: 10px; top: 10px; }
+#share { background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.2); cursor: move; height: 160px; overflow: hidden; padding: 25px 15px 15px; position: absolute; right: 10px; top: 10px; width: 205px; }
+#share .item { float: left; height: 80px; margin: 0px 6px; width: 55px; }
+/*#credits { background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.3); bottom: 10px; cursor: move; font-size: 15px; height: 19px; right: 10px; padding: 10px; position: absolute; width: 300px; }
+#credits a { color: rgb(255, 255, 255); border-bottom: 1px dotted rgb(255, 255, 255); text-decoration: none; }*/
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://fonts.gstatic.com/s/opensans/v10/xjAJXh38I15wypJXxuGMBrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(http://fonts.gstatic.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxuw_rQOTGi-AJs5XCWaKIhU.woff) format('woff');
+}
