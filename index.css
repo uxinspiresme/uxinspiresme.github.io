@@ -1,7 +1,12 @@
 /* ::::: Hello World!::::: */
 
 * { margin: 0px; padding: 0px; }
-body { background-color: rgb(244, 137, 7); color: rgb(255, 255, 255); font: 14px "Open Sans", sans-serif;font-weight: 300; }
+body {
+	background-color: rgb(244, 137, 7);
+	color: rgb(255,255,255);
+	font: 14px "Open Sans", sans-serif;
+	font-weight: 300;
+}
 .hidden { display: none; }
 .noselect { -moz-user-select: none; }
 #floaty-thing {
@@ -11,9 +16,18 @@ body { background-color: rgb(244, 137, 7); color: rgb(255, 255, 255); font: 14px
 	width: 600px;
 }
 #floaty-thing .resumehelper { background: url('helper.png') no-repeat scroll 0% 0% transparent; height: 103px; left: 375px; position: absolute; top: 75px; width: 327px; z-index: 5; }
-#wp7 { height: 690px; width: 455px; left:150px;}
-#frame { height: 690px; position: relative; width: 455px;}
-#frame .top { background: url('frame-top.png') no-repeat scroll 0% 0% transparent; cursor: move; height: 52px; top: 6px; left: 60px; position: absolute; width: 453px; z-index: 5; }
+#wp7 { height: 690px; width: 520px; left:150px;}
+#frame { height: 690px; position: relative; width: 550px;}
+#frame .top {
+	background: url('frame-top.png') no-repeat scroll 0% 0% transparent;
+	cursor: move;
+	height: 60px;
+	top: 6px;
+	left: 60px;
+	position: absolute;
+	width: 500px;
+	z-index: 5;
+}
 #frame .left {
 	background: url('frame-left.png') no-repeat scroll 0% 0% transparent; cursor: move;
 	height: 867px;
@@ -26,7 +40,7 @@ body { background-color: rgb(244, 137, 7); color: rgb(255, 255, 255); font: 14px
 #frame .right {
 	background: url('frame-right.png') no-repeat scroll 0% 0% transparent; cursor: move;
 	height: 867px;
-	left: 364px;
+	left: 374px;
 	position: absolute;
 	top: 52px;
 	width: 32px;
@@ -37,7 +51,7 @@ body { background-color: rgb(244, 137, 7); color: rgb(255, 255, 255); font: 14px
 	bottom: -78px;
 	height: 201px;
 	position: absolute;
-	width: 453px;
+	width: 500px;
 	z-index: 5;
 	left: 60px;
 }
@@ -49,29 +63,107 @@ body { background-color: rgb(244, 137, 7); color: rgb(255, 255, 255); font: 14px
 #title .name span { font-weight: bold; color: black;  }
 #title .steps { font-size: 25px; margin: 0px 30px 40px; color: black; }
 #content { background: none repeat scroll 0% 0% rgb(0, 0, 0); height: 515px; left: 86px; overflow-y: hidden; position: absolute; top: 52px; }
-#viewport { height: 515px; position: relative; width: 278px; }
-#content .window-size { float: left; height: 515px; position: absolute; width: 278px; z-index: 2; }
+#viewport { height: 515px; position: relative; width: 288px; }
+#content .window-size {
+	float: left;
+	height: 515px;
+	position: absolute;
+	width: 288px;
+	z-index: 2;
+}
 #content .time { font-size: 13px; position: absolute; right: 5px; top: 2px; }
 #content .lock-screen { background: url('lock-screen.jpg') no-repeat scroll 0% 0% transparent; cursor: n-resize; z-index: 4; }
 #content .lock-screen .text { bottom: 136px; font-size: 30px; left: 15px; position: absolute; }
-#content .home-screen { background: none repeat scroll 0% 0% rgb(0, 0, 0); float: left; height: 515px; overflow: hidden; position: absolute; width: 265px; z-index: 3; }
-#content .home-screen .arrow { background: url('frame.png') no-repeat scroll 0px 0px transparent; cursor: pointer; height: 515px; left: 0px; position: absolute; top: 0px; width: 278px; }
-#content .home-screen .boxes { left: 2px; list-style: none outside none; position: relative; top: 30px; width: 278px; }
-#content .home-screen .box { background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 0px 0px 5px 5px; height: 40px; width: 40px; }
+#content .home-screen {
+	background: none repeat scroll 0% 0% rgb(0, 0, 0);
+	float: left;
+	height: 515px;
+	overflow: hidden;
+	position: absolute;
+	width: 287px;
+	z-index: 3;
+}
+#content .home-screen .arrow {
+	background: url('helper.png') no-repeat scroll 0px 0px transparent;
+	cursor: pointer;
+	height: 515px;
+	left: 288px;
+	position: absolute;
+	top: 0px;
+	width: 288px;
+}
+#content .home-screen .boxes { left: 1px; list-style: none outside none; position: relative; top: 30px; width: 288px; }
+
+
+#content .home-screen .box-large { background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 2px 2px 3px 3px; height: 92px; width: 184px; }
+
+#content .home-screen .box-medium { background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 3px 3px 4px 4px; height: 91px; width: 89px; }
+
+#content .home-screen .box-small {
+	background-color: rgb(27, 161, 226);
+	cursor: pointer;
+	float: left;
+	
+	height: 38px;
+	width: 38px;
+	
+	padding: 2px;
+	margin-top: 2px;
+	margin-right: 1px;
+	margin-bottom: 4px;
+	margin-left: 4px;
+}
+
+#content .home-screen .box-medium2 {  position: absolute; left: -1px; top: 98px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 3px 3px 4px 4px; height: 91px; width: 89px; }
+
+
+#content .home-screen .box-small3 {  position: absolute; left: 94px; top: 98px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 3px 3px 4px 4px; height: 42px; width: 42px; }
+
+#content .home-screen .box-small4 {  position: absolute; left: 141px; top: 98px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 3px 3px 4px 4px; height: 42px; width: 42px; }
+
+#content .home-screen .box-small5 {  position: absolute; left: 94px; top: 145px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 42px; width: 42px; }
+
+#content .home-screen .box-small6 {  position: absolute; left: 141px; top: 145px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 42px; width: 42px; }
+
+#content .home-screen .box-medium3 {  position: absolute; left: 188px; top: 145px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 91px; width: 89px; }
+
+#content .home-screen .box-large2 {  position: absolute; left: -1px; top: 194px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 92px; width: 184px; }
+
+#content .home-screen .box-medium4 {  position: absolute; left: 188px; top: 243px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 91px; width: 89px; }
+
+#content .home-screen .box-medium5 {  position: absolute; left: -1px; top: 292px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 91px; width: 89px; }
+
+#content .home-screen .box-small7 {  position: absolute; left: 94px; top: 292px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 42px; width: 42px; }
+
+#content .home-screen .box-small8 {  position: absolute; left: 141px; top: 292px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 42px; width: 42px; }
+
+#content .home-screen .box-small9 {  position: absolute; left: 94px; top: 340px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 42px; width: 42px; }
+
+#content .home-screen .box-small10 {  position: absolute; left: 141px; top: 340px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 42px; width: 42px; }
+
+#content .home-screen .box-small11 {  position: absolute; left: 188px; top: 340px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 42px; width: 42px; }
+
+#content .home-screen .box-small12 {  position: absolute; left: 235px; top: 340px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 42px; width: 42px; }
+
+#content .home-screen .box-medium6 {  position: absolute; left: -1px; top: 388px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 91px; width: 89px; }
+
+#content .home-screen .box-medium7 {  position: absolute; left: 94px; top: 388px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 91px; width: 89px; }
+
+#content .home-screen .box-medium8 {  position: absolute; left: 188px; top: 388px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 91px; width: 89px; }
+
+
+
+
 #content .home-screen .phone { background-image: url('live-tiles.png'); background-position: 0px 0px; }
+
 #content .home-screen .email { background-image: url('live-tiles.png'); background-position: -97px 0px; }
+
 #content .home-screen .social { background-image: url('live-tiles.png'); background-position: -194px 0px; }
 #content .home-screen .resume { background-image: url('live-tiles.png'); background-position: -291px 0px; }
 
 
-#content .home-screen .a { background-image: url('live-tiles.png'); background-position: -29px 0px; }
-#content .home-screen .b { background-image: url('live-tiles.png'); background-position: -291px 0px; }
-#content .home-screen .c { background-image: url('live-tiles.png'); background-position: -291px 0px; }
-
-
-
 #content .home-screen .buzz { background-image: url('live-tiles.png'); background-position: -388px 0px; }
-#content .home-screen .lists { left: 278px; list-style: none outside none; position: relative; top: 45px; width: 205px; }
+#content .home-screen .lists { left: 288px; list-style: none outside none; position: relative; top: 45px; width: 205px; }
 #content .home-screen .list { cursor: pointer; height: 35px; margin-bottom: 15px; position: relative; }
 #content .home-screen .list span { font-size: 20px; left: 45px; position: absolute; top: 5px; }
 #content .home-screen li.list div { background-color: rgb(27, 161, 226); height: 35px; width: 35px; }
@@ -121,34 +213,58 @@ body { background-color: rgb(244, 137, 7); color: rgb(255, 255, 255); font: 14px
 #content #buzz .mentions { left: 15px; position: absolute; top: 105px; width: 240px; }
 #content #buzz .mentions a { color: rgb(255, 255, 255); font-size: 19px; text-decoration: none; }
 #content #buzz .mentions a:hover { font-weight: bold; }
-#content #resume { background: url('wave.jpg') no-repeat scroll 0% 0% rgb(0, 0, 0); overflow: hidden; }
-#content #resume .title { font-size: 100px; left: 15px; absolute; top: -30px; }
-#content #resume .tabs { cursor: pointer; font-size: 30px; left: 15px; position: absolute; top: 80px; width: 610px; }
-#content #resume .tab { color: rgb(255, 255, 255); float: left; font-size: 30px; margin-right: 20px; }
-#content #resume .tabs .selected { color: rgb(64, 64, 64); }
+#content #resume { background: url('wave.jpg') no-repeat scroll 0% 0% rgb(255, 255, 255); overflow: hidden; }
+#content #resume .title { color: rgb(0, 0, 0); font-size: 100px; left: 15px; top: -30px; position: absolute; }
+#content #resume .tabs { cursor: pointer; font-size: 30px; left: 50px; position: absolute; top: 80px; width: 645px; }
+#content #resume .tab {
+	color: rgb(255,255,255);
+	float: left;
+	font-size: 30px;
+	margin-right: 20px;
+}
+#content #resume .tabs .selected {
+	color: rgb(222,219,215);
+}
 #content #resume .pages { left: 0px; position: absolute; top: 145px; }
 #content #resume .pages .experience { left: 15px; position: absolute; }
 #content #resume .pages .education { left: 280px; position: absolute; }
 #content #resume .pages .events { left: 545px; position: absolute; }
 #content #resume .pages .skills { left: 810px; position: absolute; }
 #content #resume .pages .code { left: 1075px; position: absolute; }
-#content #resume .work { color: rgb(48, 48, 48); list-style: none outside none; }
+#content #resume .work {
+	color: rgb(0,0,0);
+	list-style: none outside none;
+}
 #content #resume .work li { height: 55px; margin-bottom: 20px; position: relative; width: 240px; }
-#content #resume .work li a { height: 55px; width: 55px; }
-#content #resume .work .smartcar a { background: url('work.png') no-repeat scroll 0px 0px transparent; display: block; }
-#content #resume .work .skattertech a { background: url('work.png') no-repeat scroll -55px 0px transparent; display: block; }
-#content #resume .work .sixapart a { background: url('work.png') no-repeat scroll -110px 0px transparent; display: block; }
-#content #resume .work .tivo a { background: url('work.png') no-repeat scroll -165px 0px transparent; display: block; }
+#content #resume .work li a {  height: 60px; width: 55px; }
+#content #resume .work .dlab a { background: url('work.png') no-repeat scroll 0px 0px transparent; display: block; }
 #content #resume .work .company { font-size: 20px; font-weight: bold; left: 65px; position: absolute; top: -5px; }
-#content #resume .work .position { color: rgb(64, 64, 64); font-size: 15px; font-weight: bold; left: 65px; position: absolute; top: 20px; }
+#content #resume .work .position {
+	color: rgb(0,51,204);
+	font-size: 15px;
+	font-weight: bold;
+	left: 65px;
+	position: absolute;
+	top: 20px;
+}
 #content #resume .work .dates { left: 65px; position: absolute; top: 40px; }
-#content #resume .school { color: rgb(48, 48, 48); list-style: none outside none; }
-#content #resume .school li { height: 55px; margin-bottom: 25px; position: relative; width: 240px; }
-#content #resume .school li a { height: 55px; width: 55px; }
-#content #resume .school .ucd a { background: url('school.png') no-repeat scroll 0px 0px transparent; display: block; }
+#content #resume .school {
+	color: rgb(0,0,0);
+	list-style: none outside none;
+}
+#content #resume .school li { left: 10px; height: 55px; margin-bottom: 25px; position: relative; width: 240px; }
+#content #resume .school li a { height: 60px; width: 60px; }
+#content #resume .school .ucsd a { background: url('school.png') no-repeat scroll 0px 0px transparent; display: block; }
 #content #resume .school .shs a { background: url('school.png') no-repeat scroll -55px 0px transparent; display: block; }
 #content #resume .school .campus { font-size: 20px; font-weight: bold; left: 65px; position: absolute; top: -5px; }
-#content #resume .school .major { color: rgb(64, 64, 64); font-size: 15px; font-weight: bold; left: 65px; position: absolute; top: 20px; }
+#content #resume .school .major {
+	color: rgb(0,51,255);
+	font-size: 15px;
+	font-weight: bold;
+	left: 65px;
+	position: absolute;
+	top: 20px;
+}
 #content #resume .school .dates { left: 65px; position: absolute; top: 40px; }
 #content #resume .conferences { color: rgb(48, 48, 48); list-style: none outside none; }
 #content #resume .conferences li { height: 35px; margin-bottom: 20px; position: relative; width: 240px; }
