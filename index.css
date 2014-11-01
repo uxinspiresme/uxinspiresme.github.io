@@ -101,13 +101,11 @@ body {
 #content .home-screen .box-medium { background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 3px 3px 4px 4px; height: 91px; width: 89px; }
 
 #content .home-screen .box-small {
-	background-color: rgb(27, 161, 226);
+	background-color: rgb(95,135,125);
 	cursor: pointer;
 	float: left;
-	
 	height: 38px;
 	width: 38px;
-	
 	padding: 2px;
 	margin-top: 2px;
 	margin-right: 1px;
@@ -115,18 +113,78 @@ body {
 	margin-left: 4px;
 }
 
-#content .home-screen .box-medium2 {  position: absolute; left: -1px; top: 98px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 3px 3px 4px 4px; height: 91px; width: 89px; }
+#content .home-screen .box-medium2 {
+	position: absolute;
+	left: -1px;
+	top: 98px;
+	background-color: rgb(102,102,102);
+	cursor: pointer;
+	float: left;
+	margin: 3px 3px 4px 4px;
+	height: 91px;
+	width: 89px;
+}
 
 
-#content .home-screen .box-small3 {  position: absolute; left: 94px; top: 98px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 3px 3px 4px 4px; height: 42px; width: 42px; }
+#content .home-screen .box-small3 {
+	position: absolute;
+	left: 94px;
+	top: 98px;
+	background-color: rgb(255,102,0);
+	cursor: pointer;
+	float: left;
+	margin: 3px 3px 4px 4px;
+	height: 42px;
+	width: 42px;
+}
 
-#content .home-screen .box-small4 {  position: absolute; left: 141px; top: 98px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 3px 3px 4px 4px; height: 42px; width: 42px; }
+#content .home-screen .box-small4 {
+	position: absolute;
+	left: 141px;
+	top: 98px;
+	background-color: rgb(255,102,0);
+	cursor: pointer;
+	float: left;
+	margin: 3px 3px 4px 4px;
+	height: 42px;
+	width: 42px;
+}
 
-#content .home-screen .box-small5 {  position: absolute; left: 94px; top: 145px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 42px; width: 42px; }
+#content .home-screen .box-small5 {
+	position: absolute;
+	left: 94px;
+	top: 145px;
+	background-color: rgb(255,102,0);
+	cursor: pointer;
+	float: left;
+	margin: 4px 4px 4px 4px;
+	height: 42px;
+	width: 42px;
+}
 
-#content .home-screen .box-small6 {  position: absolute; left: 141px; top: 145px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 42px; width: 42px; }
+#content .home-screen .box-small6 {
+	position: absolute;
+	left: 141px;
+	top: 145px;
+	background-color: rgb(255,102,0);
+	cursor: pointer;
+	float: left;
+	margin: 4px 4px 4px 4px;
+	height: 42px;
+	width: 42px;
+}
 
-#content .home-screen .box-medium3 {  position: absolute; left: 188px; top: 145px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 91px; width: 89px; }
+#content .home-screen .box-medium3 {
+	position: absolute;
+	left: 188px;
+	top: 145px;
+	background-color: rgb(102,51,153);
+	cursor: pointer;
+	float: left;
+	margin: 4px 4px 4px 4px;
+	height: 91px;
+	width: 89px;
+}
 
 #content .home-screen .box-large2 {
 	background-image: url('res.png') ;
@@ -141,9 +199,29 @@ body {
 	width: 184px;
 }
 
-#content .home-screen .box-medium4 {  position: absolute; left: 188px; top: 243px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 91px; width: 89px; }
+#content .home-screen .box-medium4 {
+	position: absolute;
+	left: 188px;
+	top: 243px;
+	background-color: rgb(102,102,102);
+	cursor: pointer;
+	float: left;
+	margin: 4px 4px 4px 4px;
+	height: 91px;
+	width: 89px;
+}
 
-#content .home-screen .box-medium5 {  position: absolute; left: -1px; top: 292px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 91px; width: 89px; }
+#content .home-screen .box-medium5 {
+	position: absolute;
+	left: -1px;
+	top: 292px;
+	background-color: rgb(51,51,51);
+	cursor: pointer;
+	float: left;
+	margin: 4px 4px 4px 4px;
+	height: 91px;
+	width: 89px;
+}
 
 #content .home-screen .box-small7 {  position: absolute; left: 94px; top: 292px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 42px; width: 42px; }
 
@@ -153,15 +231,65 @@ body {
 
 #content .home-screen .box-small10 {  position: absolute; left: 141px; top: 340px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 42px; width: 42px; }
 
-#content .home-screen .box-small11 {  position: absolute; left: 188px; top: 340px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 42px; width: 42px; }
+#content .home-screen .box-small11 {
+	position: absolute;
+	left: 188px;
+	top: 340px;
+	background-color: rgb(255,0,0);
+	cursor: pointer;
+	float: left;
+	margin: 4px 4px 4px 4px;
+	height: 42px;
+	width: 42px;
+}
 
-#content .home-screen .box-small12 {  position: absolute; left: 235px; top: 340px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 42px; width: 42px; }
+#content .home-screen .box-small12 {
+	position: absolute;
+	left: 235px;
+	top: 340px;
+	background-color: rgb(255,0,0);
+	cursor: pointer;
+	float: left;
+	margin: 4px 4px 4px 4px;
+	height: 42px;
+	width: 42px;
+}
 
-#content .home-screen .box-medium6 {  position: absolute; left: -1px; top: 388px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 91px; width: 89px; }
+#content .home-screen .box-medium6 {
+	position: absolute;
+	left: -1px;
+	top: 388px;
+	background-color: rgb(255,255,0);
+	cursor: pointer;
+	float: left;
+	margin: 4px 4px 4px 4px;
+	height: 91px;
+	width: 89px;
+}
 
-#content .home-screen .box-medium7 {  position: absolute; left: 94px; top: 388px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 91px; width: 89px; }
+#content .home-screen .box-medium7 {
+	position: absolute;
+	left: 94px;
+	top: 388px;
+	background-color: rgb(0,153,153);
+	cursor: pointer;
+	float: left;
+	margin: 4px 4px 4px 4px;
+	height: 91px;
+	width: 89px;
+}
 
-#content .home-screen .box-medium8 {  position: absolute; left: 188px; top: 388px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 91px; width: 89px; }
+#content .home-screen .box-medium8 {
+	position: absolute;
+	left: 188px;
+	top: 388px;
+	background-color: rgb(153,153,153);
+	cursor: pointer;
+	float: left;
+	margin: 4px 4px 4px 4px;
+	height: 91px;
+	width: 89px;
+}
 
 
 
