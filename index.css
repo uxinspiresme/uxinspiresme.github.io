@@ -129,6 +129,7 @@ body {
 #content .home-screen .box-medium3 {  position: absolute; left: 188px; top: 145px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 91px; width: 89px; }
 
 #content .home-screen .box-large2 {
+	background-image: url('res.png') ;
 	position: absolute;
 	left: -1px;
 	top: 194px;
@@ -165,7 +166,7 @@ body {
 
 
 
-#content .home-screen .box-large { background-image: url('res.png') ; background-position: 0px 0px;}
+#content .home-screen .box-large { background-image: url('contact.png') ; background-position: 3px -5px;}
 
 #content .home-screen .email { background-image: url('live-tiles.png'); background-position: -97px 0px; }
 
