@@ -16,7 +16,7 @@ body {
 	width: 600px;
 }
 #floaty-thing .resumehelper { background: url('helper.png') no-repeat scroll 0% 0% transparent; height: 103px; left: 375px; position: absolute; top: 75px; width: 327px; z-index: 5; }
-#wp7 { height: 690px; width: 520px; left:150px;}
+#wp7 { height: 690px; width: 520px; left:10px;}
 #frame { height: 690px; position: relative; width: 550px;}
 #frame .top {
 	background: url('frame-top.png') no-repeat scroll 0% 0% transparent;
@@ -58,7 +58,7 @@ body {
 #frame .back {  no-repeat scroll 0% 0% transparent; bottom: 77px; cursor: pointer; height: 39px; left: 80px; position: absolute; width: 96px; z-index: 5; }
 #frame .home {  no-repeat scroll 0% 0% transparent; bottom: 77px; cursor: pointer; height: 39px; left: 183px; position: absolute; width: 90px; z-index: 5; }
 #frame .search {  no-repeat scroll 0% 0% transparent; bottom: 77px; cursor: pointer; height: 39px; left: 280px; position: absolute; width: 95px; z-index: 5; }
-#title { background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.1); position: absolute; left: 575px; top: 155px;  width:375px; cursor: move;}
+#title { background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.1); position: absolute; left: 425px; top: 10px; width:375px; cursor: move;}
 #title .name { font-size: 50px; margin: 20px 10px 0px 25px;}
 #title .name span { font-weight: bold; color: black;  }
 #title .steps { font-size: 25px; margin: 0px 30px 40px; color: black; }
@@ -72,8 +72,9 @@ body {
 	z-index: 2;
 }
 #content .time { font-size: 13px; position: absolute; right: 5px; top: 2px; }
-#content .lock-screen { background: url('lock-screen.jpg') no-repeat scroll 0% 0% transparent; cursor: n-resize; z-index: 4; }
-#content .lock-screen .text { bottom: 136px; font-size: 30px; left: 15px; position: absolute; }
+/*#content .lock-screen { background: url('
+') no-repeat scroll 0% 0% transparent; cursor: n-resize; z-index: 4; }
+#content .lock-screen .text { bottom: 136px; font-size: 30px; left: 15px; position: absolute; }*/
 #content .home-screen {
 	background: none repeat scroll 0% 0% rgb(0, 0, 0);
 	float: left;
@@ -95,7 +96,7 @@ body {
 #content .home-screen .boxes { left: 1px; list-style: none outside none; position: relative; top: 30px; width: 288px; }
 
 
-#content .home-screen .box-large { background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 2px 2px 3px 3px; height: 92px; width: 184px; }
+#content .home-screen .box-large { background-color: rgb(27, 161, 0); cursor: pointer; float: left; margin: 2px 2px 3px 3px; height: 92px; width: 184px; }
 
 #content .home-screen .box-medium { background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 3px 3px 4px 4px; height: 91px; width: 89px; }
 
@@ -127,7 +128,17 @@ body {
 
 #content .home-screen .box-medium3 {  position: absolute; left: 188px; top: 145px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 91px; width: 89px; }
 
-#content .home-screen .box-large2 {  position: absolute; left: -1px; top: 194px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 92px; width: 184px; }
+#content .home-screen .box-large2 {
+	position: absolute;
+	left: -1px;
+	top: 194px;
+	background-color: rgb(0,0,204);
+	cursor: pointer;
+	float: left;
+	margin: 4px 4px 4px 4px;
+	height: 92px;
+	width: 184px;
+}
 
 #content .home-screen .box-medium4 {  position: absolute; left: 188px; top: 243px; background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 4px 4px 4px 4px; height: 91px; width: 89px; }
 
@@ -154,12 +165,12 @@ body {
 
 
 
-#content .home-screen .phone { background-image: url('live-tiles.png'); background-position: 0px 0px; }
+#content .home-screen .box-large { background-image: url('res.png') ; background-position: 0px 0px;}
 
 #content .home-screen .email { background-image: url('live-tiles.png'); background-position: -97px 0px; }
 
 #content .home-screen .social { background-image: url('live-tiles.png'); background-position: -194px 0px; }
-#content .home-screen .resume { background-image: url('live-tiles.png'); background-position: -320px 0px; }
+#content .home-screen .resume { background-image: url('live-tile.png'); background-position: -5px 0px; }
 
 
 #content .home-screen .buzz { background-image: url('live-tiles.png'); background-position: -388px 0px; }
