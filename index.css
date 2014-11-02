@@ -294,7 +294,7 @@ body {
 	position: absolute;
 	left: 94px;
 	top: 388px;
-	background-color: rgb(255,255,0);
+	background-color: rgb(51,51,51);
 	cursor: pointer;
 	float: left;
 	margin: 4px 4px 4px 4px;
@@ -306,7 +306,7 @@ body {
 	position: absolute;
 	left: 188px;
 	top: 388px;
-	background-color: rgb(51,51,51);
+	background-color: rgb(255,255,0);
 	cursor: pointer;
 	float: left;
 	margin: 4px 4px 4px 4px;
