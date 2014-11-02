@@ -108,12 +108,16 @@ body {
 	width: 38px;
 	padding: 2px;
 	margin-top: 2px;
-	margin-right: 1px;
+	margin-right: 2px;
 	margin-bottom: 4px;
 	margin-left: 4px;
 }
 
 #content .home-screen .box-medium2 {
+	background-image: url('industry.png') ;
+	background-position: 2px 1px;
+	background-repeat: no-repeat;
+	background-size: cover;
 	position: absolute;
 	left: -1px;
 	top: 98px;
@@ -130,7 +134,7 @@ body {
 	position: absolute;
 	left: 94px;
 	top: 98px;
-	background-color: rgb(255,102,0);
+	background-color: rgb(27,161,0);
 	cursor: pointer;
 	float: left;
 	margin: 3px 3px 4px 4px;
@@ -142,7 +146,7 @@ body {
 	position: absolute;
 	left: 141px;
 	top: 98px;
-	background-color: rgb(255,102,0);
+	background-color: rgb(27,161,0);
 	cursor: pointer;
 	float: left;
 	margin: 3px 3px 4px 4px;
@@ -294,12 +298,24 @@ body {
 
 
 
+
+
+
+
 #content .home-screen .box-large { background-image: url('contact.png') ; background-position: 3px -5px;}
 
 #content .home-screen .email { background-image: url('live-tiles.png'); background-position: -97px 0px; }
 
 #content .home-screen .social { background-image: url('live-tiles.png'); background-position: -194px 0px; }
 #content .home-screen .resume { background-image: url('live-tile.png'); background-position: -5px 0px; }
+
+
+
+
+
+
+
+
 
 
 #content .home-screen .buzz { background-image: url('live-tiles.png'); background-position: -388px 0px; }
@@ -333,20 +349,7 @@ body {
 #content #social .networks { left: 15px; position: absolute; top: 110px; width: 240px; }
 #content #social .networks span { display: none; }
 #content #social .networks a { display: block; float: left; height: 55px; margin: 0px 5px 5px 0px; width: 55px; }
-#content #social .networks .facebook { background: url('social-icons.png') no-repeat scroll 0px 0px transparent; }
-#content #social .networks .flickr { background: url('social-icons.png') no-repeat scroll -55px 0px transparent; }
-#content #social .networks .foursquare { background: url('social-icons.png') no-repeat scroll -110px 0px transparent; }
-#content #social .networks .googletalk { background: url('social-icons.png') no-repeat scroll -165px 0px transparent; }
-#content #social .networks .linkedin { background: url('social-icons.png') no-repeat scroll -220px 0px transparent; }
-#content #social .networks .pandora { background: url('social-icons.png') no-repeat scroll -275px 0px transparent; }
-#content #social .networks .reddit { background: url('social-icons.png') no-repeat scroll -330px 0px transparent; }
-#content #social .networks .skattertech { background: url('social-icons.png') no-repeat scroll -385px 0px transparent; }
-#content #social .networks .skype { background: url('social-icons.png') no-repeat scroll -440px 0px transparent; }
-#content #social .networks .stumbleupon { background: url('social-icons.png') no-repeat scroll -495px 0px transparent; }
-#content #social .networks .tumblr { background: url('social-icons.png') no-repeat scroll -550px 0px transparent; }
-#content #social .networks .twitter { background: url('social-icons.png') no-repeat scroll -605px 0px transparent; }
-#content #social .networks .vimeo { background: url('social-icons.png') no-repeat scroll -660px 0px transparent; }
-#content #social .networks .youtube { background: url('social-icons.png') no-repeat scroll -715px 0px transparent; }
+
 #content #buzz { background-color: rgb(0, 0, 0); }
 #content #buzz .text { font-size: 15px; left: 15px; position: absolute; top: 30px; }
 #content #buzz .tab { font-size: 40px; left: 15px; position: absolute; top: 45px; }
