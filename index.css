@@ -227,7 +227,7 @@ body {
 
 #content .home-screen .box-medium5 {
 	background-image: url('uxdefender.png');
-	background-position: 1px 3px;
+	background-position: 2px 3px;
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
@@ -277,7 +277,7 @@ body {
 	position: absolute;
 	left: -1px;
 	top: 388px;
-	background-color: rgb(57,39,55);
+	background-color: rgb(51,51,255);
 	cursor: pointer;
 	float: left;
 	margin: 4px 4px 4px 4px;
@@ -289,7 +289,7 @@ body {
 	position: absolute;
 	left: 94px;
 	top: 388px;
-	background-color: rgb(95,135,125);
+	background-color: rgb(255,255,0);
 	cursor: pointer;
 	float: left;
 	margin: 4px 4px 4px 4px;
@@ -301,7 +301,7 @@ body {
 	position: absolute;
 	left: 188px;
 	top: 388px;
-	background-color: rgb(27,161,0);
+	background-color: rgb(255,255,0);
 	cursor: pointer;
 	float: left;
 	margin: 4px 4px 4px 4px;
