@@ -230,10 +230,14 @@ body {
 }
 
 #content .home-screen .box-medium5 {
+	background-image: url('uxdefender.png');
+	background-position: 1px 3px;
+	background-repeat: no-repeat;
+	background-size: contain;
 	position: absolute;
 	left: -1px;
 	top: 292px;
-	background-color: rgb(51,51,51);
+	background-color: rgb(153,0,0);
 	cursor: pointer;
 	float: left;
 	margin: 4px 4px 4px 4px;
