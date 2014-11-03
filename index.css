@@ -119,17 +119,6 @@ body {
 }
 
 
-#content .home-screen .box-small3 {
-	position: absolute;
-	left: 94px;
-	top: 98px;
-	background-color: rgb(27,161,0);
-	cursor: pointer;
-	float: left;
-	margin: 3px 3px 4px 4px;
-	height: 42px;
-	width: 42px;
-}
 
 #content .home-screen .box-small4 {
 	position: absolute;
@@ -201,6 +190,24 @@ body {
 	width: 89px;
 }
 
+#content .home-screen .box-mediumz {
+	background-image: url('.png');
+	background-position: 1px 3px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	left: 94px;
+	top: 98px;
+	background-color: rgb(255,0,0);
+	cursor: pointer;
+	float: left;
+	margin: 3px 3px 4px 4px;
+	height: 91px;
+	width: 89px;
+}
+
+
+
 #content .home-screen .box-large2 {
 	background-image: url('res.png') ;
 	position: absolute;
@@ -249,7 +256,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
-	left: -1px;
+	left: 0px;
 	top: 292px;
 	background-color: rgb(255,0,0);
 	cursor: pointer;
