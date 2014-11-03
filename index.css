@@ -214,6 +214,19 @@ body {
 	width: 184px;
 }
 
+#content .home-screen .box-large3 {
+	background-image: url('portfolio.png');
+	position: absolute;
+	left: 94px;
+	top: 388px;
+	background-color: rgb(255,255,0);
+	cursor: pointer;
+	float: left;
+	margin: 4px 4px 4px 4px;
+	height: 92px;
+	width: 184px;
+}
+
 #content .home-screen .box-medium4 {
 	background-image: url('uxdesign.png');
 	background-position: 0px 3px;
