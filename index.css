@@ -1,4 +1,4 @@
-/* ::::: Hello World!::::: */
+/* ::::: If you made it this far, we have some tech hobbies in common! add me on linkedin so we can chat::::: */
 
 * { margin: 0px; padding: 0px; }
 body {
@@ -55,18 +55,16 @@ body {
 	z-index: 5;
 	left: 60px;
 }
-/*#contentspace {	background: url('clients.png') no-repeat  scroll 0% 0% rgba(0, 0, 0, 0.1); position: absolute; left: 435px; top: 175px; width: 500px; height: 490px; cursor: move;			
-	}*/
-/*#contentspace .button {		font-size: 25px; margin: 0px 30px 40px; color: black;	
-	}*/
+
 #frame .back {  no-repeat scroll 0% 0%
  transparent; bottom: 77px; cursor: pointer; height: 39px; left: 80px; position: absolute; width: 96px; z-index: 5; }
 #frame .home {  no-repeat scroll 0% 0% transparent; bottom: 77px; cursor: pointer; height: 39px; left: 183px; position: absolute; width: 90px; z-index: 5; }
 #frame .search {  no-repeat scroll 0% 0% transparent; bottom: 77px; cursor: pointer; height: 39px; left: 280px; position: absolute; width: 95px; z-index: 5; }
-#title { background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.1); position: absolute; left: 425px; top: 10px; width:375px; cursor: move;}
+#title { background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.1); position: absolute; left: 425px; top: 10px; width:410px; cursor: move;}
 #title .name { font-size: 50px; margin: 20px 10px 0px 25px;}
 #title .name span { font-weight: bold; color: black;  }
 #title .steps { font-size: 25px; margin: 0px 30px 40px; color: black; }
+#title .aboutme { font-size: 18px; margin: 10px 15px 40px; color: white; }
 #content { background: none repeat scroll 0% 0% rgb(0, 0, 0); height: 515px; left: 86px; overflow-y: hidden; position: absolute; top: 52px; }
 #viewport { height: 515px; position: relative; width: 288px; }
 #content .window-size {
@@ -77,9 +75,7 @@ body {
 	z-index: 2;
 }
 #content .time { font-size: 13px; position: absolute; right: 5px; top: 2px; }
-/*#content .lock-screen { background: url('
-') no-repeat scroll 0% 0% transparent; cursor: n-resize; z-index: 4; }
-#content .lock-screen .text { bottom: 136px; font-size: 30px; left: 15px; position: absolute; }*/
+
 #content .home-screen {
 	background: none repeat scroll 0% 0% rgb(0, 0, 0);
 	float: left;
@@ -105,7 +101,28 @@ body {
 
 #content .home-screen .box-medium { background-color: rgb(27, 161, 226); cursor: pointer; float: left; margin: 3px 3px 4px 4px; height: 91px; width: 89px; }
 
-#content .home-screen .box-small {
+#content .home-screen .box-small1 {
+	background-image: url('gplus.png') ;
+	background-repeat: no-repeat ;
+	background-size: contain ;
+	background-position: 0px 0px ;
+	background-color: rgb(95,135,125);
+	cursor: pointer;
+	float: left;
+	height: 38px;
+	width: 38px;
+	padding: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 4px;
+	margin-left: 4px;
+}
+
+#content .home-screen .box-small2 {
+	background-image: url('linkedin.png') ;
+	background-repeat: no-repeat ;
+	background-size: contain;
+	background-position: 0px 0px ;
 	background-color: rgb(95,135,125);
 	cursor: pointer;
 	float: left;
@@ -465,18 +482,7 @@ body {
 #content #settings .option { font-size: 40px; left: 15px; position: absolute; top: 45px; }
 #content #settings .colors { left: 15px; list-style: none outside none; position: relative; top: 110px; width: 205px; }
 #content #settings .color { font-size: 20px; cursor: pointer; height: 35px; margin-bottom: 15px; position: relative; }
-#content #settings .color span { left: 45px; position: absolute; top: 5px; }
-#content #settings li.color div { height: 35px; width: 35px; }
-#content #settings .colors .blue div { background-color: rgb(27, 161, 226); }
-#content #settings .colors .green div { background-color: rgb(51, 153, 51); }
-#content #settings .colors .orange div { background-color: rgb(240, 150, 9); }
-#content #settings .colors .purple div { background-color: rgb(162, 0, 255); }
-#content #settings .colors .red div { background-color: rgb(229, 20, 0); }
-#sharebutton { background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.2); cursor: pointer; font-size: 15px; padding: 10px; position: absolute; right: 10px; top: 10px; }
-#share { background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.2); cursor: move; height: 160px; overflow: hidden; padding: 25px 15px 15px; position: absolute; right: 10px; top: 10px; width: 205px; }
-#share .item { float: left; height: 80px; margin: 0px 6px; width: 55px; }
-/*#credits { background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.3); bottom: 10px; cursor: move; font-size: 15px; height: 19px; right: 10px; padding: 10px; position: absolute; width: 300px; }
-#credits a { color: rgb(255, 255, 255); border-bottom: 1px dotted rgb(255, 255, 255); text-decoration: none; }*/
+
 
 @font-face {
   font-family: 'Open Sans';
