@@ -17,13 +17,13 @@ body {
 }
 
 #wp8 { height: 690px; width: 520px; }
-#frame { height: 690px; position: relative; width: 500px; left: -20px;}
+#frame { height: 690px; position: relative; width: 500px; }
 #frame .top {
 	background: url('frame-top.png') no-repeat scroll 0% 0% transparent;
 	cursor: move;
 	height: 60px;
-	top: 6px;
-	left: 20px;
+	top: -14px;
+	left: 0px;
 	position: absolute;
 	width: 500px;
 	z-index: 5;
@@ -31,29 +31,29 @@ body {
 #frame .left {
 	background: url('frame-left.png') no-repeat scroll 0% 0% transparent; cursor: move;
 	height: 867px;
-	left: 20px;
+	left: 0px;
 	position: absolute;
-	top: 52px;
+	top: 32px;
 	width: 32px;
 	z-index: 5;
 }
 #frame .right {
 	background: url('frame-right.png') no-repeat scroll 0% 0% transparent; cursor: move;
 	height: 867px;
-	left: 334px;
+	left: 314px;
 	position: absolute;
-	top: 52px;
+	top: 32px;
 	width: 32px;
 	z-index: 5;
 }
 #frame .bottom {
 	background: url('frame-bottom.png') no-repeat scroll 0% 0% transparent; cursor: move;
-	bottom: -78px;
+	bottom: -58px;
 	height: 201px;
 	position: absolute;
 	width: 500px;
 	z-index: 5;
-	left: 20px;
+	left: 0px;
 }
 
 
@@ -62,7 +62,7 @@ body {
 #title .name span {  font-weight: bold; color: black;  }
 #title .steps {text-align: center ; font-size: 25px; margin: 0px 15px 0px 0px; color: black; }
 #title .aboutme { font-size: 18px; margin: 20px 20px 30px 25px; color: white; }
-#content { background: none repeat scroll 0% 0% rgb(0, 0, 0); height: 515px; left: 26px; overflow-y: hidden; position: absolute; top: 52px; }
+#content { background: none repeat scroll 0% 0% rgb(0, 0, 0); height: 515px; left: 26px; overflow-y: hidden; position: absolute; top: 32px; }
 #viewport { height: 515px; position: relative; width: 288px; }
 #content .window-size {
 	float: left;
@@ -220,7 +220,7 @@ body {
 	cursor: pointer;
 	float: left;
 	margin: 4px 4px 4px 4px;
-	height: 92px;
+	height: 91px;
 	width: 184px;
 }
 
@@ -233,7 +233,7 @@ body {
 	cursor: pointer;
 	float: left;
 	margin: 4px 4px 4px 4px;
-	height: 92px;
+	height: 91px;
 	width: 184px;
 }
 
