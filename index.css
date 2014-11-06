@@ -15,7 +15,7 @@ body {
 	position: absolute;
 	width: 600px;
 }
-#floaty-thing .resumehelper { background: url('helper.png') no-repeat scroll 0% 0% transparent; height: 103px; left: 375px; position: absolute; top: 75px; width: 327px; z-index: 5; }
+
 #wp7 { height: 690px; width: 520px; left:10px;}
 #frame { height: 690px; position: relative; width: 550px;}
 #frame .top {
@@ -60,11 +60,11 @@ body {
  transparent; bottom: 77px; cursor: pointer; height: 39px; left: 80px; position: absolute; width: 96px; z-index: 5; }
 #frame .home {  no-repeat scroll 0% 0% transparent; bottom: 77px; cursor: pointer; height: 39px; left: 183px; position: absolute; width: 90px; z-index: 5; }
 #frame .search {  no-repeat scroll 0% 0% transparent; bottom: 77px; cursor: pointer; height: 39px; left: 280px; position: absolute; width: 95px; z-index: 5; }
-#title { background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.1); position: absolute; left: 425px; top: 10px; width:410px; cursor: move;}
-#title .name { font-size: 50px; margin: 20px 10px 0px 25px;}
-#title .name span { font-weight: bold; color: black;  }
-#title .steps { font-size: 25px; margin: 0px 30px 40px; color: black; }
-#title .aboutme { font-size: 18px; margin: 10px 15px 40px; color: white; }
+#title { background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.1); position: absolute; left: 425px; top: 10px; width:430px;}
+#title .name {font-size: 55px; margin: 20px 20px 0px 25px;}
+#title .name span {  font-weight: bold; color: black;  }
+#title .steps {text-align: center ; font-size: 25px; margin: 0px 15px 0px 0px; color: black; }
+#title .aboutme { font-size: 18px; margin: 20px 20px 30px 25px; color: white; }
 #content { background: none repeat scroll 0% 0% rgb(0, 0, 0); height: 515px; left: 86px; overflow-y: hidden; position: absolute; top: 52px; }
 #viewport { height: 515px; position: relative; width: 288px; }
 #content .window-size {
@@ -136,7 +136,6 @@ body {
 }
 
 
-
 #content .home-screen .box-small4 {
 	position: absolute;
 	left: 141px;
@@ -188,7 +187,6 @@ body {
 	height: 91px;
 	width: 89px;
 }
-
 
 
 #content .home-screen .box-medium2 {
@@ -352,12 +350,6 @@ body {
 }
 
 
-
-
-
-
-
-
 #content .home-screen .box-large { background-image: url('contact.png') ; background-position: 3px -5px;}
 
 #content .home-screen .email { background-image: url('live-tiles.png'); background-position: -97px 0px; }
@@ -365,123 +357,11 @@ body {
 #content .home-screen .social { background-image: url('live-tiles.png'); background-position: -194px 0px; }
 #content .home-screen .resume { background-image: url('live-tile.png'); background-position: -5px 0px; }
 
-
-
-
-
-
-
-
-
-
-#content .home-screen .buzz { background-image: url('live-tiles.png'); background-position: -388px 0px; }
 #content .home-screen .lists { left: 288px; list-style: none outside none; position: relative; top: 45px; width: 205px; }
 #content .home-screen .list { cursor: pointer; height: 35px; margin-bottom: 15px; position: relative; }
 #content .home-screen .list span { font-size: 20px; left: 45px; position: absolute; top: 5px; }
 #content .home-screen li.list div { background-color: rgb(27, 161, 226); height: 35px; width: 35px; }
-#content .home-screen .map div { background-image: url('app-list.png'); background-position: 0px 0px; }
-#content .home-screen .gallery div { background-image: url('app-list.png'); background-position: -35px 0px; }
-#content .home-screen .settings div { background-image: url('app-list.png'); background-position: -70px 0px; }
-#content #search { background-color: rgb(255, 255, 255); width:50%; height:50%;}
-#content #phone { background-color: rgb(0, 0, 0); }
-#content #phone .tip { left: 5px; position: absolute; top: 25px; }
-#content #phone .number { font-size: 25px; left: 5px; position: absolute; top: 42px; }
-#content #phone .backspace { background-image: url('backspace.png'); cursor: pointer; height: 15px; left: 225px; position: absolute; top: 51px; width: 22px; }
-#content #phone .info { font-size: 12px; left: 5px; position: absolute; top: 90px; }
-#content #phone .dial-pad { background-color: rgb(58, 58, 58); bottom: 0px; height: 285px; left: 0px; position: absolute; width: 262px; }
-#content #phone .keys { left: 2px; position: absolute; top: 2px; }
-#content #phone .key { background-color: rgb(116, 116, 116); cursor: pointer; display: block; float: left; height: 58px; margin: 2px; position: relative; width: 83px; }
-#content #phone .key span { font-size: 30px; left: 32px; position: absolute; top: 10px; }
-#content #phone .key:hover { background-color: rgb(222, 222, 222); }
-#content #phone .key:hover span { color: rgb(0, 0, 0); }
-#content #phone .call { border: 2px solid rgb(255, 255, 255); bottom: 5px; cursor: pointer; font-size: 16px; left: 70px; padding: 2px 50px; position: absolute; }
-#content #phone .call:hover { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); }
-#content #phone .incoming { background-color: rgb(58, 58, 58); height: 157px; left: 0px; position: absolute; top: -157px; width: 262px; }
-#content #phone .incomingalert { left: 15px; position: absolute; top: 45px; }
-#content #phone .incomingalert span { font-size: 25px; }
-#content #social { background-color: rgb(0, 0, 0); }
-#content #social .text { font-size: 15px; left: 15px; position: absolute; top: 30px; }
-#content #social .tab { font-size: 40px; left: 15px; position: absolute; top: 45px; }
-#content #social .networks { left: 15px; position: absolute; top: 110px; width: 240px; }
-#content #social .networks span { display: none; }
-#content #social .networks a { display: block; float: left; height: 55px; margin: 0px 5px 5px 0px; width: 55px; }
 
-#content #buzz { background-color: rgb(0, 0, 0); }
-#content #buzz .text { font-size: 15px; left: 15px; position: absolute; top: 30px; }
-#content #buzz .tab { font-size: 40px; left: 15px; position: absolute; top: 45px; }
-#content #buzz .mentions { left: 15px; position: absolute; top: 105px; width: 240px; }
-#content #buzz .mentions a { color: rgb(255, 255, 255); font-size: 19px; text-decoration: none; }
-#content #buzz .mentions a:hover { font-weight: bold; }
-#content #resume { background: url('wave.jpg') no-repeat scroll 0% 0% rgb(255, 255, 255); overflow: hidden; }
-#content #resume .title { color: rgb(0, 0, 0); font-size: 100px; left: 15px; top: -30px; position: absolute; }
-#content #resume .tabs { cursor: pointer; font-size: 30px; left: 50px; position: absolute; top: 80px; width: 645px; }
-#content #resume .tab {
-	color: rgb(255,255,255);
-	float: left;
-	font-size: 30px;
-	margin-right: 20px;
-}
-#content #resume .tabs .selected {
-	color: rgb(222,219,215);
-}
-#content #resume .pages { left: 0px; position: absolute; top: 145px; }
-#content #resume .pages .experience { left: 15px; position: absolute; }
-#content #resume .pages .education { left: 280px; position: absolute; }
-#content #resume .pages .events { left: 545px; position: absolute; }
-#content #resume .pages .skills { left: 810px; position: absolute; }
-#content #resume .pages .code { left: 1075px; position: absolute; }
-#content #resume .work {
-	color: rgb(0,0,0);
-	list-style: none outside none;
-}
-#content #resume .work li { height: 55px; margin-bottom: 20px; position: relative; width: 240px; }
-#content #resume .work li a {  height: 60px; width: 55px; }
-#content #resume .work .dlab a { background: url('work.png') no-repeat scroll 0px 0px transparent; display: block; }
-#content #resume .work .company { font-size: 20px; font-weight: bold; left: 65px; position: absolute; top: -5px; }
-#content #resume .work .position {
-	color: rgb(0,51,204);
-	font-size: 15px;
-	font-weight: bold;
-	left: 65px;
-	position: absolute;
-	top: 20px;
-}
-#content #resume .work .dates { left: 65px; position: absolute; top: 40px; }
-#content #resume .school {
-	color: rgb(0,0,0);
-	list-style: none outside none;
-}
-#content #resume .school li { left: 10px; height: 55px; margin-bottom: 25px; position: relative; width: 240px; }
-#content #resume .school li a { height: 60px; width: 60px; }
-#content #resume .school .ucsd a { background: url('school.png') no-repeat scroll 0px 0px transparent; display: block; }
-#content #resume .school .shs a { background: url('school.png') no-repeat scroll -55px 0px transparent; display: block; }
-#content #resume .school .campus { font-size: 20px; font-weight: bold; left: 65px; position: absolute; top: -5px; }
-#content #resume .school .major {
-	color: rgb(0,51,255);
-	font-size: 15px;
-	font-weight: bold;
-	left: 65px;
-	position: absolute;
-	top: 20px;
-}
-#content #resume .school .dates { left: 65px; position: absolute; top: 40px; }
-#content #resume .conferences { color: rgb(48, 48, 48); list-style: none outside none; }
-#content #resume .conferences li { height: 35px; margin-bottom: 20px; position: relative; width: 240px; }
-#content #resume .conferences li a { height: 35px; width: 35px; }
-#content #resume .conferences .ces a { background: url('conferences.png') no-repeat scroll 0px 0px transparent; display: block; }
-#content #resume .conferences .ctia a { background: url('conferences.png') no-repeat scroll -35px 0px transparent; display: block; }
-#content #resume .conferences .e3 a { background: url('conferences.png') no-repeat scroll -70px 0px transparent; display: block; }
-#content #resume .conferences .mwe a { background: url('conferences.png') no-repeat scroll -105px 0px transparent; display: block; }
-#content #resume .conferences .cc a { background: url('conferences.png') no-repeat scroll -140px 0px transparent; display: block; }
-#content #resume .conferences .event { font-size: 20px; font-weight: bold; left: 45px; position: absolute; top: -5px; }
-#content #resume .conferences .dates { left: 45px; position: absolute; top: 20px; }
-#content #resume .talents, #content #resume .languages { color: rgb(48, 48, 48); list-style: none outside none; }
-#content #resume .talents li, #content #resume .languages li { font-size: 22px; font-weight: bold; margin-bottom: 10px; width: 225px; }
-#content #settings { background-color: rgb(0, 0, 0); }
-#content #settings .text { font-size: 15px; left: 15px; position: absolute; top: 30px; }
-#content #settings .option { font-size: 40px; left: 15px; position: absolute; top: 45px; }
-#content #settings .colors { left: 15px; list-style: none outside none; position: relative; top: 110px; width: 205px; }
-#content #settings .color { font-size: 20px; cursor: pointer; height: 35px; margin-bottom: 15px; position: relative; }
 
 
 @font-face {
