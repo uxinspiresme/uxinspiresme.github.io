@@ -73,6 +73,14 @@ body {
 }
 #content .time { font-size: 13px; position: absolute; right: 5px; top: 2px; }
 
+#content .lock-screen { background: url('lock-screen.jpg') no-repeat scroll 0% 0% transparent; cursor: n-resize; z-index: 4; }
+
+#content .lock-screen .text { bottom: 50px; font-size: 30px; width: 250px; left: 15px; position: absolute; }
+
+#content .lock-screen .lock-screen-box { background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.5); bottom: 45px; font-size: 30px; width: 200px; height: 128px; left: 8px; position: absolute;}
+
+#title  .boxed { left: 300px; list-style: none outside none; position: relative; top: 0px; width: 288px; }
+
 #content .home-screen {
 	background: none repeat scroll 0% 0% rgb(0, 0, 0);
 	float: left;
@@ -82,6 +90,9 @@ body {
 	width: 287px;
 	z-index: 3;
 }
+
+
+
 #content .home-screen .boxes { left: 1px; list-style: none outside none; position: relative; top: 30px; width: 288px; }
 
 
@@ -93,6 +104,41 @@ body {
 	background-image: url('gplus.png') ;
 	background-repeat: no-repeat ;
 	background-size: contain ;
+	background-position: 0px 0px ;
+	background-color: rgb(95,135,125);
+	cursor: pointer;
+	float: left;
+	height: 38px;
+	width: 38px;
+	padding: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 4px;
+	margin-left: 4px;
+}
+
+
+#title .box-small1 {
+	background-image: url('gplus.png') ;
+	background-repeat: no-repeat ;
+	background-size: contain ;
+	background-position: 0px 0px ;
+	background-color: rgb(95,135,125);
+	cursor: pointer;
+	float: left;
+	height: 38px;
+	width: 38px;
+	padding: 2px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 4px;
+	margin-left: 4px;
+}
+
+#title .box-small2 {
+	background-image: url('linkedin.png') ;
+	background-repeat: no-repeat ;
+	background-size: contain;
 	background-position: 0px 0px ;
 	background-color: rgb(95,135,125);
 	cursor: pointer;
